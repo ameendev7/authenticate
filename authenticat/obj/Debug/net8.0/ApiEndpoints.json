@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "jwtTask.Controllers.ItemController",
+    "Method": "CreateItem",
+    "RelativePath": "api/Item/create-item",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "authenticat.Models.Items",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "jwtTask.Controllers.ItemController",
+    "Method": "DeleteItem",
+    "RelativePath": "api/Item/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "jwtTask.Controllers.ItemController",
+    "Method": "GetItems",
+    "RelativePath": "api/Item/getTask",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "authenticat.Controllers.UserController",
+    "Method": "GetUser",
+    "RelativePath": "api/User/getuser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "authenticat.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "authenticat.Models.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "authenticat.Controllers.UserController",
+    "Method": "register",
+    "RelativePath": "api/User/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "authenticat.Models.user",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
